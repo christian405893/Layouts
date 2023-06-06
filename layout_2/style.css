@@ -42,7 +42,7 @@ main {
     flex-shrink: 1;
     flex-basis: 500px;
     height: calc(100vh - 224px);
-    
+}
 
 aside {
     flex-grow: 1;
@@ -57,3 +57,17 @@ footer {
     flex-basis: 100vw;
     height: 100px;
 }
+
+@media only screen and (max-width: 923px) { 
+    /*se n for maior q 923px*/
+    main {
+        height: calc(100vh -330px);
+    }
+
+    aside {
+        flex: 1 1 100vw;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width:)
